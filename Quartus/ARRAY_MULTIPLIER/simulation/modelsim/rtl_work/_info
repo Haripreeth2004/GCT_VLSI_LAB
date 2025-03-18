@@ -1,0 +1,113 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/simulation/modelsim
+varray_multiplier
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1742324563
+!i10b 1
+!s100 C67l_V?]m@4h70GQ1>Khh1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7eknWiMWBAgjmIKXMm0To1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1742324497
+Z6 8/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/array_multiplier.sv
+Z7 F/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/array_multiplier.sv
+!i122 0
+L0 15 36
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1742324563.000000
+Z10 !s107 /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/array_multiplier.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER|/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/array_multiplier.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER
+Z14 tCvgOpt 0
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 g[IKBA@5YhMC0WkNV@<jV1
+R3
+I^:8QdeDMd;6H`d]4V6m9P1
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 6 8
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vhalf_adder
+R1
+R2
+!i10b 1
+!s100 XRQ`P2BeXHT>^g]eYUJB>3
+R3
+IMCz4AV@4T3UBARb<>B5QC2
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 1 4
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtb_array_multiplier
+R2
+!i10b 1
+!s100 ]>:6AK4IXL:i01_;4P9ec0
+R3
+IL]:];O]MmMdjf2BgTbmKj1
+R4
+R0
+w1742324106
+8/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/tb_array_multiplier.v
+F/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/tb_array_multiplier.v
+!i122 1
+L0 1 15
+R8
+r1
+!s85 0
+31
+R9
+!s107 /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/tb_array_multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER|/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/tb_array_multiplier.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER
+R14

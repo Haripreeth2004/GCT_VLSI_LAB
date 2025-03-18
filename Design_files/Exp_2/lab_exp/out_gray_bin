@@ -1,0 +1,94 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x65383cde14c0 .scope module, "tb_gray_bin" "tb_gray_bin" 2 1;
+ .timescale 0 0;
+v0x65383ce34e60_0 .net "binary", 3 0, L_0x65383ce357c0;  1 drivers
+v0x65383ce34f20_0 .var "gray", 3 0;
+S_0x65383cde1650 .scope module, "uut" "gray_bin" 2 8, 3 1 0, S_0x65383cde14c0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "gray";
+    .port_info 1 /OUTPUT 4 "binary";
+L_0x65383ce35230 .functor XOR 1, L_0x65383ce350c0, L_0x65383ce35160, C4<0>, C4<0>;
+L_0x65383ce35490 .functor XOR 1, L_0x65383ce35320, L_0x65383ce353f0, C4<0>, C4<0>;
+L_0x65383ce356b0 .functor XOR 1, L_0x65383ce35490, L_0x65383ce355d0, C4<0>, C4<0>;
+L_0x65383ce35b30 .functor XOR 1, L_0x65383ce359a0, L_0x65383ce35a90, C4<0>, C4<0>;
+L_0x65383ce35d70 .functor XOR 1, L_0x65383ce35b30, L_0x65383ce35c70, C4<0>, C4<0>;
+L_0x65383ce35ed0 .functor XOR 1, L_0x65383ce35d70, L_0x65383ce35e30, C4<0>, C4<0>;
+v0x65383cde1830_0 .net *"_ivl_10", 0 0, L_0x65383ce35230;  1 drivers
+v0x65383ce33ef0_0 .net *"_ivl_15", 0 0, L_0x65383ce35320;  1 drivers
+v0x65383ce33fd0_0 .net *"_ivl_17", 0 0, L_0x65383ce353f0;  1 drivers
+v0x65383ce34090_0 .net *"_ivl_18", 0 0, L_0x65383ce35490;  1 drivers
+v0x65383ce34170_0 .net *"_ivl_21", 0 0, L_0x65383ce355d0;  1 drivers
+v0x65383ce342a0_0 .net *"_ivl_22", 0 0, L_0x65383ce356b0;  1 drivers
+v0x65383ce34380_0 .net *"_ivl_28", 0 0, L_0x65383ce359a0;  1 drivers
+v0x65383ce34460_0 .net *"_ivl_3", 0 0, L_0x65383ce34ff0;  1 drivers
+v0x65383ce34540_0 .net *"_ivl_30", 0 0, L_0x65383ce35a90;  1 drivers
+v0x65383ce34620_0 .net *"_ivl_31", 0 0, L_0x65383ce35b30;  1 drivers
+v0x65383ce34700_0 .net *"_ivl_34", 0 0, L_0x65383ce35c70;  1 drivers
+v0x65383ce347e0_0 .net *"_ivl_35", 0 0, L_0x65383ce35d70;  1 drivers
+v0x65383ce348c0_0 .net *"_ivl_38", 0 0, L_0x65383ce35e30;  1 drivers
+v0x65383ce349a0_0 .net *"_ivl_39", 0 0, L_0x65383ce35ed0;  1 drivers
+v0x65383ce34a80_0 .net *"_ivl_7", 0 0, L_0x65383ce350c0;  1 drivers
+v0x65383ce34b60_0 .net *"_ivl_9", 0 0, L_0x65383ce35160;  1 drivers
+v0x65383ce34c40_0 .net "binary", 3 0, L_0x65383ce357c0;  alias, 1 drivers
+v0x65383ce34d20_0 .net "gray", 3 0, v0x65383ce34f20_0;  1 drivers
+L_0x65383ce34ff0 .part v0x65383ce34f20_0, 3, 1;
+L_0x65383ce350c0 .part v0x65383ce34f20_0, 3, 1;
+L_0x65383ce35160 .part v0x65383ce34f20_0, 2, 1;
+L_0x65383ce35320 .part v0x65383ce34f20_0, 3, 1;
+L_0x65383ce353f0 .part v0x65383ce34f20_0, 2, 1;
+L_0x65383ce355d0 .part v0x65383ce34f20_0, 1, 1;
+L_0x65383ce357c0 .concat8 [ 1 1 1 1], L_0x65383ce35ed0, L_0x65383ce356b0, L_0x65383ce35230, L_0x65383ce34ff0;
+L_0x65383ce359a0 .part v0x65383ce34f20_0, 3, 1;
+L_0x65383ce35a90 .part v0x65383ce34f20_0, 2, 1;
+L_0x65383ce35c70 .part v0x65383ce34f20_0, 1, 1;
+L_0x65383ce35e30 .part v0x65383ce34f20_0, 0, 1;
+    .scope S_0x65383cde14c0;
+T_0 ;
+    %pushi/vec4 0, 0, 4;
+    %store/vec4 v0x65383ce34f20_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 18 "$display", "Gray = %b, Binary = %b", v0x65383ce34f20_0, v0x65383ce34e60_0 {0 0 0};
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v0x65383ce34f20_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 23 "$display", "Gray = %b, Binary = %b", v0x65383ce34f20_0, v0x65383ce34e60_0 {0 0 0};
+    %pushi/vec4 3, 0, 4;
+    %store/vec4 v0x65383ce34f20_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 28 "$display", "Gray = %b, Binary = %b", v0x65383ce34f20_0, v0x65383ce34e60_0 {0 0 0};
+    %pushi/vec4 6, 0, 4;
+    %store/vec4 v0x65383ce34f20_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 33 "$display", "Gray = %b, Binary = %b", v0x65383ce34f20_0, v0x65383ce34e60_0 {0 0 0};
+    %pushi/vec4 12, 0, 4;
+    %store/vec4 v0x65383ce34f20_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 38 "$display", "Gray = %b, Binary = %b", v0x65383ce34f20_0, v0x65383ce34e60_0 {0 0 0};
+    %pushi/vec4 8, 0, 4;
+    %store/vec4 v0x65383ce34f20_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 43 "$display", "Gray = %b, Binary = %b", v0x65383ce34f20_0, v0x65383ce34e60_0 {0 0 0};
+    %delay 30, 0;
+    %vpi_call 2 46 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_0x65383cde14c0;
+T_1 ;
+    %vpi_call 2 50 "$dumpfile", "tb_gray_bin.vcd" {0 0 0};
+    %vpi_call 2 51 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x65383cde14c0 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_gray_bin.v";
+    "gray_bin.v";

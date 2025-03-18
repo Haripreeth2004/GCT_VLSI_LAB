@@ -1,0 +1,61 @@
+# ERROR: No extended dataflow license exists
+# do array_multiplier_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /media/hari-the-geth/HARI_VIVADO/modelsim_ase_hp/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER {/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/array_multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:32:43 on Mar 19,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER" /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/array_multiplier.sv 
+# -- Compiling module half_adder
+# -- Compiling module full_adder
+# -- Compiling module array_multiplier
+# 
+# Top level modules:
+# 	array_multiplier
+# End time: 00:32:43 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER {/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/tb_array_multiplier.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:32:43 on Mar 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER" /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/tb_array_multiplier.v 
+# -- Compiling module tb_array_multiplier
+# 
+# Top level modules:
+# 	tb_array_multiplier
+# End time: 00:32:43 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_array_multiplier
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_array_multiplier 
+# Start time: 00:32:43 on Mar 19,2025
+# Loading work.tb_array_multiplier
+# Loading sv_std.std
+# Loading work.array_multiplier
+# Loading work.half_adder
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# A = 0001: B = 0000 --> P = 00000000, P(dec) = 0
+# A = 0111: B = 0101 --> P = 00100011, P(dec) = 35
+# A = 1000: B = 1001 --> P = 01001000, P(dec) = 72
+# A = 1111: B = 1111 --> P = 11100001, P(dec) = 225
+# ** Note: $finish    : /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/tb_array_multiplier.v(13)
+#    Time: 19 ps  Iteration: 0  Instance: /tb_array_multiplier
+# 1
+# Break in Module tb_array_multiplier at /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/Quartus/ARRAY_MULTIPLIER/tb_array_multiplier.v line 13
+# End time: 00:33:55 on Mar 19,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
