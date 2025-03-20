@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/simulation/modelsim
+vfull_adder
+Z1 !s110 1742443030
+!i10b 1
+!s100 >d2e]d_e`_ZoMLOnPB=2m0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^kA?bg<73:geXMDIUY5HD3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1742442778
+Z5 8/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/ripple_carry_adder.v
+Z6 F/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/ripple_carry_adder.v
+!i122 0
+L0 1 9
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1742443030.000000
+Z9 !s107 /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/ripple_carry_adder.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder|/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/ripple_carry_adder.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder
+Z13 tCvgOpt 0
+vripple_carry_adder
+R1
+!i10b 1
+!s100 9@OQ^42DOf27Vn:N]Y<NX3
+R2
+I@GZ?c5X_Udco`T8b@5cBU0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 11 36
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vtb_ripple_carry_adder
+R1
+!i10b 1
+!s100 UXQ1]l>g8:LW6B3I?AYSm3
+R2
+IfSRkJ[QQ9<LGaH=_;M@[V2
+R3
+R0
+w1742442839
+8/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/tb_ripple_carry_adder.v
+F/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/tb_ripple_carry_adder.v
+!i122 1
+L0 1 57
+R7
+r1
+!s85 0
+31
+R8
+!s107 /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/tb_ripple_carry_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder|/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/tb_ripple_carry_adder.v|
+!i113 1
+R11
+R12
+R13

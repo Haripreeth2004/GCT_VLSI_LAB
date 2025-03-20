@@ -1,0 +1,58 @@
+# ERROR: No extended dataflow license exists
+# do ripple_carry_adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /media/hari-the-geth/HARI_VIVADO/modelsim_ase_hp/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder {/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/ripple_carry_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:27:10 on Mar 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder" /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/ripple_carry_adder.v 
+# -- Compiling module full_adder
+# -- Compiling module ripple_carry_adder
+# 
+# Top level modules:
+# 	ripple_carry_adder
+# End time: 09:27:10 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder {/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/tb_ripple_carry_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:27:10 on Mar 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder" /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/tb_ripple_carry_adder.v 
+# -- Compiling module tb_ripple_carry_adder
+# 
+# Top level modules:
+# 	tb_ripple_carry_adder
+# End time: 09:27:10 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_ripple_carry_adder
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_ripple_carry_adder 
+# Start time: 09:27:10 on Mar 20,2025
+# Loading work.tb_ripple_carry_adder
+# Loading work.ripple_carry_adder
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# a = 00000001, b = 00000001, cin = 0, sum = 00000010, cout = 0
+# a = 11111111, b = 00000001, cin = 0, sum = 00000000, cout = 1
+# a = 10101010, b = 01010101, cin = 1, sum = 00000000, cout = 1
+# a = 11110000, b = 00001111, cin = 0, sum = 11111111, cout = 0
+# ** Note: $finish    : /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/tb_ripple_carry_adder.v(49)
+#    Time: 70 ps  Iteration: 0  Instance: /tb_ripple_carry_adder
+# 1
+# Break in Module tb_ripple_carry_adder at /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/Ripple_carry_adder/tb_ripple_carry_adder.v line 49
+# End time: 09:29:50 on Mar 20,2025, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 0

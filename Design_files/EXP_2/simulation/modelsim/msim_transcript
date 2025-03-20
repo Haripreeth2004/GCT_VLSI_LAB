@@ -1,0 +1,93 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do BCD_BINARY_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Harini/EXP_2 {C:/Harini/EXP_2/adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	adder
+# 
+# vlog -vlog01compat -work work +incdir+C:/Harini/EXP_2 {C:/Harini/EXP_2/adder_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder_tb
+# ** Warning: C:/Harini/EXP_2/adder_tb.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	adder_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  adder_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps adder_tb 
+# Loading work.adder_tb
+# Loading work.adder
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(3): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(4): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(5): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(6): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(7): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(8): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(9): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(10): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./BCD_BINARY_run_msim_rtl_verilog.do PAUSED at line 12
+vsim -voptargs=+acc work.adder_tb
+# vsim -voptargs=+acc work.adder_tb 
+# Loading work.adder_tb
+# Loading work.adder
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(3): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(4): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(5): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(6): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(7): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(8): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(9): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# ** Error: (vsim-3037) C:/Harini/EXP_2/adder.v(10): Missing instance name in instantiation of 'fulladder'.
+# 
+#         Region: /adder_tb/uut
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./BCD_BINARY_run_msim_rtl_verilog.do PAUSED at line 12

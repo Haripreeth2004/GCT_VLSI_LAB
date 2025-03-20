@@ -1,0 +1,10 @@
+module bcd_binary_tb;
+reg[3:0]bcd;
+wire[3:0]binary;
+bcd_binary uut(.bcd(bcd),.binary(binary));
+initial begin
+for(bcd=4'b0000;bcd<=4'b1001;bcd=bcd+1)
+#10;
+$stop;
+end
+endmodule
