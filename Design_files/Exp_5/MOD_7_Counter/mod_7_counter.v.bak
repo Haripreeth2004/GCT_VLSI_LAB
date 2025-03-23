@@ -1,0 +1,14 @@
+module mod7_counter (
+    input clk,
+    input rst,
+    output reg [2:0] count
+);
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            count <= 3'b000;  // Reset to 0
+        else if (count == 3'b110)
+            count <= 3'b000;  // Reset after 6
+        else
+            count <= count + 1; // Increment count
+    end
+endmodule

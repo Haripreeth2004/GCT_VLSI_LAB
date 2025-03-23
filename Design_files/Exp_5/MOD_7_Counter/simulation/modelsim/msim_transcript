@@ -1,0 +1,63 @@
+# ERROR: No extended dataflow license exists
+# do mod_7_counter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /media/hari-the-geth/HARI_VIVADO/modelsim_ase_hp/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter {/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:29 on Mar 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter" /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter.v 
+# -- Compiling module mod_7_counter
+# 
+# Top level modules:
+# 	mod_7_counter
+# End time: 00:50:29 on Mar 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter {/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:50:29 on Mar 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter" /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter_tb.v 
+# -- Compiling module mod_7_counter_tb
+# 
+# Top level modules:
+# 	mod_7_counter_tb
+# End time: 00:50:29 on Mar 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  mod_7_counter_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" mod_7_counter_tb 
+# Start time: 00:50:29 on Mar 24,2025
+# Loading work.mod_7_counter_tb
+# Loading work.mod_7_counter
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time: 10 | Count: 0
+# Time: 30 | Count: 0
+# Time: 50 | Count: 1
+# Time: 70 | Count: 2
+# Time: 90 | Count: 3
+# Time: 110 | Count: 4
+# Time: 130 | Count: 5
+# Time: 150 | Count: 6
+# Time: 170 | Count: 0
+# Time: 190 | Count: 1
+# Time: 210 | Count: 2
+# ** Note: $finish    : /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter_tb.v(26)
+#    Time: 220 ps  Iteration: 0  Instance: /mod_7_counter_tb
+# 1
+# Break in Module mod_7_counter_tb at /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter_tb.v line 26
+# End time: 00:51:07 on Mar 24,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0

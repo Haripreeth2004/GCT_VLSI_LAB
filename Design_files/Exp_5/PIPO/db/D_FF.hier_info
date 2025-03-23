@@ -1,0 +1,41 @@
+|PIPO_Shift_Register
+clk => clk.IN4
+rst => rst.IN4
+parallel_in[0] => parallel_in[0].IN1
+parallel_in[1] => parallel_in[1].IN1
+parallel_in[2] => parallel_in[2].IN1
+parallel_in[3] => parallel_in[3].IN1
+parallel_out[0] <= D_FF:dff0.port3
+parallel_out[1] <= D_FF:dff1.port3
+parallel_out[2] <= D_FF:dff2.port3
+parallel_out[3] <= D_FF:dff3.port3
+
+
+|PIPO_Shift_Register|D_FF:dff0
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PIPO_Shift_Register|D_FF:dff1
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PIPO_Shift_Register|D_FF:dff2
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PIPO_Shift_Register|D_FF:dff3
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
