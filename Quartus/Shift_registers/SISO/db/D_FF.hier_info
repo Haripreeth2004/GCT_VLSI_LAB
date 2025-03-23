@@ -1,0 +1,35 @@
+|SISO_Shift_Register
+clk => clk.IN4
+rst => rst.IN4
+serial_in => serial_in.IN1
+serial_out <= D_FF:dff3.port3
+
+
+|SISO_Shift_Register|D_FF:dff0
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SISO_Shift_Register|D_FF:dff1
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SISO_Shift_Register|D_FF:dff2
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SISO_Shift_Register|D_FF:dff3
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
