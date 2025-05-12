@@ -3,7 +3,7 @@ module mod_7_counter_tb;
     reg clk, rst;
     wire [2:0] count;
 
-    // Instantiate the Mod-7 counter
+    // Instantiate Mod-7 Counter
     mod_7_counter uut (
         .clk(clk),
         .rst(rst),
@@ -15,18 +15,18 @@ module mod_7_counter_tb;
 
     // Test Procedure
     initial begin
-	 
-        clk = 0;  
-        rst = 1;  
-        #20;  // Apply Reset
 
-        rst = 0;  
-        #200;  // Run for multiple clock cycles
+        clk = 0;  
+        rst = 1;  // Apply Reset
+        #20;
+
+        rst = 0;  // Start counting
+        #200;  // Observe for 10 clock cycles
 
         $finish;
     end
 
-    // Monitor count value changes
+    // Display Count in Console
     always @(posedge clk) begin
         $display("Time: %0t | Count: %0d", $time, count);
     end

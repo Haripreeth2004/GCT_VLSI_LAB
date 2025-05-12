@@ -12,7 +12,7 @@ module T_FF (
     end
 endmodule
 
-module mod7_counter (
+module mod_7_counter (
     input clk,
     input rst,
     output wire [2:0] count

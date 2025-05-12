@@ -18,5 +18,6 @@ Sim dir               :  simulation/modelsim
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script /media/hari-the-geth/HARI_VIVADO/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File mod_7_counter_run_msim_rtl_verilog.do already exists - backing up current file as mod_7_counter_run_msim_rtl_verilog.do.bak
 Info: Spawning ModelSim-Altera Simulation software 
 Info: NativeLink simulation flow was successful
