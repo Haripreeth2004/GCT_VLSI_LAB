@@ -1,0 +1,14 @@
+# Bitstream for input signal
+# Time (s)    Bit Level (V)
+0            0
+10e-9         1
+20e-9         0
+30e-9         1
+40e-9         1
+50e-9         0
+60e-9         1
+70e-9         0
+80e-9         1
+90e-9         0
+100e-9		1
+

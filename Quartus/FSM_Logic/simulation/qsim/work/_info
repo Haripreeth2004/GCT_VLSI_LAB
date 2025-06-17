@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Quartus/FSM_Logic/simulation/qsim
+vFSM_based_traffic_controller
+Z1 !s110 1747588277
+!i10b 1
+!s100 0UW::a<B_1KHlDoA1J?n;1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRKST6BMLh>Nj_nE]6n1:U0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1747588274
+Z5 8FSM_based_traffic_controller.vo
+Z6 FFSM_based_traffic_controller.vo
+!i122 4
+L0 32 216
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1747588276.000000
+Z9 !s107 FSM_based_traffic_controller.vo|
+Z10 !s90 -work|work|FSM_based_traffic_controller.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@f@s@m_based_traffic_controller
+vFSM_based_traffic_controller_vlg_vec_tst
+R1
+!i10b 1
+!s100 2DTa37UKgVSbn`1nzd^kd0
+R2
+Ih2MW[X4dYoZL0ld6C2INP3
+R3
+R0
+w1747588271
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 5
+L0 30 56
+R7
+r1
+!s85 0
+31
+!s108 1747588277.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@f@s@m_based_traffic_controller_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 4OKIgTg`d=?J[jmBfKKKJ1
+R2
+I[<OU0QK`3S>?DZWeN94jG0
+R3
+R0
+R4
+R5
+R6
+!i122 4
+L0 249 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

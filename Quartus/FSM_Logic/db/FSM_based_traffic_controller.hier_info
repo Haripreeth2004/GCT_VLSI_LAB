@@ -1,0 +1,16 @@
+|FSM_based_traffic_controller
+reset => reg_fstate.NS.OUTPUTSELECT
+reset => reg_fstate.EW.OUTPUTSELECT
+reset => NS_G.OUTPUTSELECT
+reset => NS_R.OUTPUTSELECT
+reset => EW_G.OUTPUTSELECT
+reset => EW_R.OUTPUTSELECT
+clock => fstate~1.DATAIN
+c => reg_fstate.EW.DATAA
+c => reg_fstate.NS.DATAA
+NS_G <= NS_G.DB_MAX_OUTPUT_PORT_TYPE
+NS_R <= NS_R.DB_MAX_OUTPUT_PORT_TYPE
+EW_G <= EW_G.DB_MAX_OUTPUT_PORT_TYPE
+EW_R <= EW_R.DB_MAX_OUTPUT_PORT_TYPE
+
+

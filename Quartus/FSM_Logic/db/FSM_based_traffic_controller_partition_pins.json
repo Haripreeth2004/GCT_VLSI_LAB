@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "NS_G",
+					"strict" : false
+				},
+				{
+					"name" : "NS_R",
+					"strict" : false
+				},
+				{
+					"name" : "EW_G",
+					"strict" : false
+				},
+				{
+					"name" : "EW_R",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "c",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

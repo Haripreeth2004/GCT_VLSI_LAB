@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/simulation/modelsim
+vD_FF
+Z1 !s110 1747638904
+!i10b 1
+!s100 I[BzT:gV4l1[eJc`c^D;z0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[5zJ`DEhC1kelg>nFk7H82
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742755076
+8/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/D_FF.v
+F/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/D_FF.v
+!i122 0
+L0 1 13
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1747638904.000000
+!s107 /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/D_FF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO|/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/D_FF.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO
+Z8 tCvgOpt 0
+n@d_@f@f
+vSISO_Shift_Register
+R1
+!i10b 1
+!s100 i3_1zzJ6fiQoAc;H_<8ff3
+R2
+IOF0:4h__1FG=BXjjR1O7O1
+R3
+R0
+w1742755243
+8/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/SISO_Shift_Register.v
+F/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/SISO_Shift_Register.v
+!i122 1
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/SISO_Shift_Register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO|/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/SISO_Shift_Register.v|
+!i113 1
+R6
+R7
+R8
+n@s@i@s@o_@shift_@register
+vSISO_Shift_Register_tb
+!s110 1747638905
+!i10b 1
+!s100 2APD8Pf;i05JFaQzmJQjW2
+R2
+IRnRI5ozcfJ77z=75>:T<F1
+R3
+R0
+w1742755256
+8/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/SISO_Shift_Register_tb.v
+F/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/SISO_Shift_Register_tb.v
+!i122 2
+L0 1 25
+R4
+r1
+!s85 0
+31
+!s108 1747638905.000000
+!s107 /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/SISO_Shift_Register_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO|/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/SISO/SISO_Shift_Register_tb.v|
+!i113 1
+R6
+R7
+R8
+n@s@i@s@o_@shift_@register_tb

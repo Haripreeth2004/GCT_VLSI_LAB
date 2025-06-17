@@ -10,14 +10,14 @@ z2
 cModel Technology
 Z0 d/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/simulation/modelsim
 vmod_7_counter
-Z1 !s110 1746974586
+Z1 !s110 1747639864
 !i10b 1
 !s100 Ob;=_5^hUj6RA`9z1EKDb0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IYC7<OVdjjQ5gjbYjKEX^L0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1746974412
+Z4 w1747639646
 Z5 8/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter.v
 Z6 F/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter.v
 !i122 0
@@ -26,7 +26,7 @@ Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1746974586.000000
+Z8 !s108 1747639864.000000
 Z9 !s107 /media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter.v|
 Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter|/media/hari-the-geth/HPCORE/vlsi_design_lab_exp/GCT_VLSI_LAB/Design_files/Exp_5/MOD_7_Counter/mod_7_counter.v|
 !i113 1

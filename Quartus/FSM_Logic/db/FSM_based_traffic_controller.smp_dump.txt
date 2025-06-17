@@ -1,0 +1,5 @@
+
+State Machine - |FSM_based_traffic_controller|fstate
+Name fstate.EW 
+fstate.NS 0 
+fstate.EW 1 
